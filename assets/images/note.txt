@@ -1,0 +1,1 @@
+Rename ProfilePicture.png to current username and copy file to /var/lib/AccountsService/icons/$(whoami)
