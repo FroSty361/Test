@@ -1,6 +1,6 @@
 [ExtractDialog]
 1920x1080 screen: Height=540
-1920x1080 screen: Width=1280
+1920x1080 screen: Width=1256
 DirHistory[$e]=$HOME/aur/open-utau/,$HOME/aur/,$HOME/.dotfiles/miku/.local/share/fonts/,$HOME/.dotfiles/miku/.local/share/plasma/look-and-feel/
 
 [General]
