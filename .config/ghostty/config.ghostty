@@ -2,3 +2,5 @@ theme = miku
 window-width = 160
 window-height = 36
 font-family = JetBrainsMono Nerd Font
+
+keybind = ctrl+shift+w=close_surface

@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default High Contrast",
+    "zenMode.hideActivityBar": false,
+    "editor.fontFamily": "'JetBrainsMono Nerd Font', 'Droid Sans Mono', monospace",
+    "editor.fontSize": 16,
+    "editor.minimap.sectionHeaderFontSize": 8,
+    "workbench.iconTheme": "material-icon-theme"
+}
