@@ -1,0 +1,66 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "auto",        // Logo type: auto, builtin, small, file, etc.
+    "source": "~/assets/ascii/fastfetchlogo.txt",      // Built-in logo name or file path
+    "width": 6,           // Width in characters
+    "height": 6,          // Height in characters
+    "padding": {
+        "top": 1,          // Top padding
+        "bottom": 1,       // Bottom Padding
+        "left": 3,        // Left padding
+        "right": 0         // Right padding
+    },
+    "color": {             // Override logo colors
+        "1": "green",
+        "2": "green"
+    }
+  },
+  "display": {
+    "separator": ": ",     // Separator between keys and values
+    "color": {
+        "keys": "green",    // Key color
+        "title": "green"     // Title color
+    },
+    "key": {
+        "width": 12,       // Aligns keys to this width
+        "type": "string"   // string, icon, both, or none
+    },
+    "bar": {
+        "width": 10,       // Width of percentage bars
+        "char": {
+            "elapsed": "■", // Character for elapsed portion
+            "total": "-",    // Character for total portion
+        },
+    },
+    "percent": {
+        "type": 9,         // 1=number, 2=bar, 3=both, 9=colored number
+        "color": {
+            "green": "green",
+            "yellow": "light_yellow",
+            "red": "light_red"
+        }
+    }
+  },
+  "modules": [
+    "title",
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "localip",
+    "battery",
+    "poweradapter",
+    "break",
+    "colors"
+  ]
+}

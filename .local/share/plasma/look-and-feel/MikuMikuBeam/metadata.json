@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "",
+                "Name": "Sophi"
+            }
+        ],
+        "Category": "",
+        "Description": "MikuMikuBeam splashscreen for Plasma 6",
+        "Id": "MikuMikuBeam",
+        "License": "GPLv3",
+        "Name": "MikuMikuBeam",
+        "Website": ""
+    },
+    "Keywords": "Desktop;Workspace;Appearance;Look and Feel;Logout;Lock;Suspend;Shutdown;Hibernate;",
+    "X-Plasma-APIVersion": "2"
+}

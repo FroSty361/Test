@@ -1,0 +1,11 @@
+[Theme]
+name=default
+
+[Theme-plasma-themeexplorer]
+name=default
+
+[Theme-plasmathemeexplorer]
+name=default
+
+[Wallpapers]
+usersWallpapers=/home/frosty/assets/images/Wallpaper.jpg,/home/frosty/Pictures/Wallpapers/Wallpaper.jpg
