@@ -53,10 +53,16 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 popupHeight=509
-popupWidth=647
+popupWidth=685
+
+[Containments][2][Applets][3][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
+icon=/home/frosty/assets/images/ApplicationLauncherIcon.png
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][2][Applets][4]
 immutability=1
@@ -65,6 +71,9 @@ plugin=org.kde.plasma.pager
 [Containments][2][Applets][5]
 immutability=1
 plugin=org.kde.plasma.icontasks
+
+[Containments][2][Applets][5][Configuration][General]
+launchers=applications:org.kde.discover.desktop,preferred://filemanager,preferred://browser
 
 [Containments][2][Applets][6]
 immutability=1
