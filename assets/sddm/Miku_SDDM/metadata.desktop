@@ -1,0 +1,14 @@
+[SddmGreeterTheme]
+Name=miku-theme
+Description=miku
+Author=frosty
+Website=https://github.com/Keyitdev/sddm-astronaut-theme
+License=GPL-3.0-or-later
+Type=sddm-theme
+Version=1.3
+ConfigFile=theme.conf
+MainScript=Main.qml
+TranslationsDirectory=translations
+Theme-Id=miku-theme
+Theme-API=2.0
+QtVersion=6
