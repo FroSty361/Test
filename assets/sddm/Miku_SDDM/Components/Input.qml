@@ -123,9 +123,10 @@ Column {
                     
                 width: selectUser.height * 1
                 height: parent.height
-                anchors.left: parent.left
+                anchors.horizontalCenter: parent.horizontalCenter
                 anchors.verticalCenter: parent.verticalCenter
-                anchors.leftMargin: selectUser.height * 0
+                anchors.verticalCenterOffset: -(height) + 16
+                anchors.horizontalCenterOffset: (width / 2) + 32     
                 
                 icon.height: parent.height * 0.25
                 icon.width: parent.height * 0.25
