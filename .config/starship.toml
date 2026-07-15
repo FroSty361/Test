@@ -1,12 +1,12 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
- [](cyan)\
-$os\
+[](cyan)\
+[39](bg:cyan fg:background)\
 $username\
-[](bg:foreground fg:cyan)\
+[](bg:background fg:cyan)\
 $directory\
-[](fg:foreground bg:green)\
+[](fg:background bg:green)\
 $git_branch(fg:foreground bg:green)\
 $git_status\
 [](fg:green bg:red)\
@@ -20,29 +20,27 @@ $java\
 $kotlin\
 $haskell\
 $python\
-[](fg:red bg:comment)\
+[](fg:red bg:background)\
 $docker_context\
 $conda\
 $pixi\
-[](fg:comment bg:current_line)\
-$time\
-[ ](fg:current_line)\
+[ ](background)\
 $line_break$character"""
 
 # Use the color palette
 palette = "miku"
 
 [palettes.miku]
-background = "#131b4b"
+background = "#137a7f"
 current_line = "#232f7b"
 foreground = "#ffffeb"
-comment = "#0743ff"
-cyan = "#89eaff"
-green = "#4bff79"
+comment = "#0e85a3"
+cyan = "#86cecb"
+green = "#09eda9"
 orange = "#f5ff87"
-pink = "#ff79c6"
-purple = "#0743ff"
-red = "#ff5555"
+pink = "#e12885"
+purple = "#a5157a"
+red = "#e23d69"
 yellow = "#f5ff87"
 
 
@@ -80,7 +78,7 @@ style_root = "bg:cyan fg:background"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:background bg:foreground"
+style = "fg:foreground bg:background"
 format = "[ $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
